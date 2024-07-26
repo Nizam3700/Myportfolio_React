@@ -4,7 +4,7 @@ const ProCard = () => {
   return (
     <>
     
-    <section class="md:ml-28">
+    <section class="md:ml-20 m-5">
             <div class="max-w-sm border items-center content-center m-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <img
