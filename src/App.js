@@ -35,7 +35,7 @@ function App() {
       <ScrollToTop />
       <div className="hero">
         {/* navbar start  */}
-        <nav className="dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <nav className="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
           <div className="header max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
             <a
               href="#"
@@ -87,31 +87,31 @@ function App() {
               <ul className="flex flex-col py-4 m-2 text-black md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-slate-600 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-gray-900 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li
                   onClick={() => scrollToSection(home)}
-                  className="link m-1 bg-cyan-100 border rounded-full hover:bg-green-400 hover:border-black "
+                  className="link m-1 text-cyan-200 hover:decoration-solid text-blue-500 "
                 >
                   Home
                 </li>
                 <li
                   onClick={() => scrollToSection(skills)}
-                  className="link  m-1 bg-cyan-100 border  rounded-full hover:bg-green-400 hover:border-black "
+                  className="link  m-1 text-cyan-200 hover:decoration-solid hover:text-blue-500 "
                 >
                   Skills
                 </li>
                 <li
                   onClick={() => scrollToSection(project)}
-                  className="link m-1 bg-cyan-100 border-2 rounded-full hover:bg-green-400 hover:border-black "
+                  className="link m-1 text-cyan-200 hover:decoration-solid hover:text-blue-500  "
                 >
                   Projects
                 </li>
                 <li
                   onClick={() => scrollToSection(exp)}
-                  className="link  m-1 bg-cyan-100 border  rounded-full hover:bg-green-400 hover:border-black "
+                  className="link  m-1 text-cyan-200 hover:decoration-solid hover:text-blue-500  "
                 >
                   Experenices
                 </li>
                 <li
                   onClick={() => scrollToSection(contacts)}
-                  className="link  m-1 bg-cyan-100 border  rounded-full hover:bg-green-400 hover:border-black "
+                  className="link  m-1 text-cyan-200 hover:decoration-solid hover:text-blue-500  "
                 >
                   Contact Me
                 </li>
