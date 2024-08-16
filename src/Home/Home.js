@@ -16,7 +16,7 @@ const Home = () => {
             <h1 class="mt-16 text-white text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
               I'm <span className="text-yellow-300">Shaik Nizamuddin</span>
             </h1>
-            <p class="text-lg m-2 justify-self-stretch font-normal text-gray-500 lg:text-xl dark:text-gray-400 md:ml-5 md:justify-normal">
+            <p class="text-lg m-2 justify-normal font-normal text-gray-500 lg:text-xl dark:text-gray-400 md:ml-5 md:justify-normal">
               Web Developer in Java & React, I build some industry ready
               projects Self-independent, reliable and friendly individual who
               works hard to achieve my goals. Adaptable quickly and organized
