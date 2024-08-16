@@ -47,15 +47,17 @@ function App() {
               </span>
             </a>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <a href="https://drive.google.com/file/d/1h-5cZHfisYGR9YYK6FtXvACMMjmPiUna/view?usp=sharing" target='_blank'>
               <button
                 type="button"
                 className="text-white m-2 flex bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-4 py-2 text-center me-2 mb-2"
               >
                 Resume <FaDownload className="ml-3 mt-1" />
               </button>
+              </a>
               <button
                 type="button"
-                className="inline-flex m-2 bg-slate-400 text-black items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="inline-flex m-2 bg-cyan-100 text-black items-center p-2 w-10 h-10 justify-center text-sm text-gray-800 rounded-lg md:hidden hover:bg-blue-300 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 aria-controls="navbar-sticky"
                 aria-expanded={menuOpen}
                 onClick={handleMenuClick}
@@ -179,10 +181,10 @@ function App() {
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div class="sm:flex sm:items-center sm:justify-between">
             <a
-              href="https://flowbite.com/"
+              href="#" onClick={() => scrollToSection(home)}
               class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
-              <img src={myimage} class="h-12" alt="Flowbite Logo" />
+              <img src={myimage} class="h-12" alt="my Logo" />
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Portfolio
               </span>
@@ -208,8 +210,7 @@ function App() {
           <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
-            <a href="https://flowbite.com/" class="hover:underline">
-              Flowbite™
+            <a href="#" class="hover:underline">
             </a>
             . All Rights Reserved.
           </span>

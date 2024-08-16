@@ -22,14 +22,14 @@ const Experience = () => {
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
               </span>
-              <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                Flowbite Application UI v2.0.0
+              <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">
+                Degree : Blended.B.Sc(Physics){" "}
                 <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                   Latest
                 </span>
               </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Released on January 13th, 2022
+              <time class="block text-left mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                Successfully Graduated, 2024
               </time>
               <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                 Get access to over 20+ pages including a dashboard layout,
@@ -49,8 +49,8 @@ const Experience = () => {
                 >
                   <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z" />
                   <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
-                </svg>
-                Download ZIP
+                </svg>{" "}
+                Download Marks Memo
               </a>
             </li>
             <li class="mb-10 ms-6">
@@ -65,11 +65,11 @@ const Experience = () => {
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
               </span>
-              <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                Flowbite Figma v1.3.0
+              <h3 class="mb-1 text-lg font-semibold text-white text-left dark:text-white">
+                Intermediate : MPC
               </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Released on December 7th, 2021
+              <time class="block mb-2 text-sm text-left font-normal leading-none text-gray-400 dark:text-gray-500">
+                Successfully Completed by Intermediate, 2021
               </time>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
                 All of the pages and components are first designed in Figma and
@@ -89,11 +89,11 @@ const Experience = () => {
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
               </span>
-              <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                Flowbite Library v1.2.2
+              <h3 class="mb-1 text-lg text-left font-semibold text-white dark:text-white">
+                Secondary School (SSC) - 10th 
               </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Released on December 2nd, 2021
+              <time class="block mb-2 text-left text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                With Good CGPA 9.0, I Completed 
               </time>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
                 Get started with dozens of web components and interactive
