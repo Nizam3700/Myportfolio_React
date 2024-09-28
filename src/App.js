@@ -10,6 +10,10 @@ import Skills from "./Skills/Skills";
 import Experience from "../src/Experience/Experience";
 import Contact from "./Contact/Contact";
 
+import projectsData from "./data/Projectdata";
+
+
+
 function App() {
   const home = useRef(null);
   const skills = useRef(null);
@@ -18,6 +22,22 @@ function App() {
   const contacts = useRef(null);
 
   const [menuOpen, setMenuOpen] = useState(false);
+
+
+  const [visibleCount, setVisibleCount] = useState(3); // Initial number of visible cards
+  const projectRef = useRef(null);
+
+  const showMore = () => {
+    setVisibleCount((prevCount) => Math.min(prevCount + 3, projectsData.length)); // Show 3 more cards
+  };
+
+  const showLess = () => {
+    setVisibleCount(3); // Reset to initial count
+    window.scrollTo({
+      top: projectRef.current.offsetTop,
+      behavior: 'smooth',
+    });
+  };
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -47,7 +67,7 @@ function App() {
               </span>
             </a>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <a href="https://drive.google.com/file/d/1h-5cZHfisYGR9YYK6FtXvACMMjmPiUna/view?usp=sharing" target='_blank'>
+            <a href="https://drive.google.com/file/d/164QNUQq7WrqHPerVm_A6b6KJSD-CJI35/view?usp=sharing" target='_blank'>
               <button
                 type="button"
                 className="text-white m-2 flex bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-4 py-2 text-center me-2 mb-2"
@@ -152,11 +172,54 @@ function App() {
             Projects
           </h2>
           {/* <!-- other diev  --> */}
-          <section className="grid grid-flow-row md:flex md:mr-20">
+          {/* grid grid-flow-row md:flex md:mr-20 */}
+          <section ref={projectRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {projectsData.slice(0, visibleCount).map((project) =>(
+            <ProCard
+              key={project.id}
+              image={project.image}
+              title={project.title}
+              description={project.description}
+              projectLink={project.projectLink}
+              tag1={project.tag1}
+              tag2={project.tag2}
+              tag3={project.tag3}
+              tag4={project.tag4}
+              tag5={project.tag5}
+              tag6={project.tag6}
+              tag7={project.tag7}
+              tag8={project.tag8}
+              tag9={project.tag9}
+              tag10={project.tag10}
+              projectDate={project.projectDate}
+              codeLink={project.codeLink}
+            />
+          ))}
+            {/* <ProCard />
             <ProCard />
-            <ProCard />
-            <ProCard />
+            <ProCard /> */}
+
           </section>
+          {visibleCount < projectsData.length && (
+            <div className="flex justify-center mt-5">
+              <button
+                onClick={showMore}
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Show More
+              </button>
+            </div>
+          )}
+          {visibleCount > 3 && (
+            <div className="flex justify-center mt-5">
+              <button
+                onClick={showLess}
+                className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Show Less
+              </button>
+            </div>
+          )}
         </main>
         {/* <!-- project end  --> */}
       </div>

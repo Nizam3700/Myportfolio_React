@@ -30,7 +30,7 @@ const Home = () => {
                 type="button"
                 class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-4"
               >
-            <a href="https://drive.google.com/file/d/1h-5cZHfisYGR9YYK6FtXvACMMjmPiUna/view?usp=sharing" target='_blank'>
+            <a href="https://drive.google.com/file/d/164QNUQq7WrqHPerVm_A6b6KJSD-CJI35/view?usp=sharing" target='_blank'>
                 View Resume {FaRegEye} 
             </a>
               </button>
