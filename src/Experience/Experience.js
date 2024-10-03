@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <>
-      <section class="mt-24">
+      <section class="mt-20">
         <h2 class="text-4xl font-extrabold ml-7 text-center mb-5 text-blue-400 underline decoration-1">
           {" "}
           Experience & Education{" "}

@@ -11,6 +11,7 @@ import Experience from "../src/Experience/Experience";
 import Contact from "./Contact/Contact";
 
 import projectsData from "./data/Projectdata";
+import { BrowserRouter } from 'react-router-dom'; // Import BrowserRouter
 
 
 
@@ -230,7 +231,7 @@ function App() {
         <Experience />
         {/* <!-- exp end  --> */}
       </div>
-      <div ref={contacts} className="contacts">
+      <div ref={contacts} className="contacts h-96">
         
         {/* <!-- contacts start  --> */}
         <h3>Contact me</h3>
