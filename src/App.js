@@ -231,7 +231,7 @@ function App() {
         <Experience />
         {/* <!-- exp end  --> */}
       </div>
-      <div ref={contacts} className="contacts h-96">
+      <div ref={contacts} className="contacts">
         
         {/* <!-- contacts start  --> */}
         <h3>Contact me</h3>
