@@ -10,9 +10,10 @@ const Card = ({
   title,
   description,
   tag1,tag2,tag3,tag4,tag5,tag6,tag7,tag8,tag9,tag10,
-  projectLink,
+  livelink,
   codeLink,
-  color
+  projectDocs
+  
 }) => {
 
   return (
@@ -100,9 +101,10 @@ const Card = ({
                 </div>
               </a>
               
-              <a href={projectLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-Blue-800 to-yellow-300 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Project Details</button></a>
-              <a href={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-600 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">View Code</button></a>
+              <a href={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-Blue-800 to-yellow-300 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Project Details</button></a>
+              <a href={livelink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-600 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">View Code</button></a>
             </div>
+            
           </section>
     </>
   )

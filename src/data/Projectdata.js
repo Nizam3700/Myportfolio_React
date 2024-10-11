@@ -10,6 +10,7 @@ const projectsData = [
       projectLink: "https://hostelpg.netlify.app/",
       codeLink:"https://github.com/Nizam3700/Hostel-PG-Frontend",
       projectDate: "Working on it",
+      projectDocs: "https://github.com/Nizam3700/Hostel-PG-Frontend"
     },
     {
       id: 2,

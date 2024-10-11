@@ -2,6 +2,8 @@
 import React from 'react'
 
 import { Button } from "flowbite-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCompactDisc } from "@fortawesome/free-solid-svg-icons";
 
 const ProCard = ({
 
@@ -12,6 +14,7 @@ const ProCard = ({
   tag1,tag2,tag3,tag4,tag5,tag6,tag7,tag8,tag9,tag10,
   projectLink,
   codeLink,
+  projectDocs,
   color
 }) => {
 
@@ -101,8 +104,17 @@ const ProCard = ({
                 </div>
               </a>
               
-              <a href={projectLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-green-800 to-yellow-300 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Project Details</button></a>
-              <a href={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-600 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">View Code</button></a>
+              <a href={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-400 to-red-600 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Project Details</button></a>
+              <a href={projectLink} target="_blank">
+                <button type="button" class="text-black bg-gradient-to-br from-blue-400 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"><FontAwesomeIcon icon={faCompactDisc} fade size="lg" style={{color: "#b30000",}} className='mr-2' />Live</button>
+                </a>
+
+                <a href={projectDocs} class="inline-flex font-medium items-center text-blue-600 hover:underline m-2">
+        Project Documentation 
+        <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+        </svg>
+    </a>
             </div>
           </section>
     </>
