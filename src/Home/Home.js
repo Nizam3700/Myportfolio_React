@@ -17,13 +17,8 @@ const Home = () => {
               I'm <span className="text-yellow-300">Shaik Nizamuddin</span>
             </h1>
             <p class="text-lg m-2 justify-normal font-normal text-gray-500 lg:text-xl dark:text-gray-400 md:ml-5 md:justify-normal">
-              Web Developer in Java & React, I build some industry ready
-              projects Self-independent, reliable and friendly individual who
-              works hard to achieve my goals. Adaptable quickly and organized
-              well. Interested in learning the latest web & software
-              technologies quickly.Able to work well in teams as well as
-              individually.My future goal is to build the application help to
-              end billion users.
+            Passionate Full Stack Developer with expertise in building scalable, reliable software applications. Quick learner with hands-on experience in modern technologies like Java, Spring Boot, MongoDB, and React.js. Looking to leverage my skills to deliver high-quality software solutions. Recently graduated in 2024.My future goal is to build the application help to
+              end billion of users.
             </p>
 
               <button

@@ -194,6 +194,7 @@ function App() {
               tag10={project.tag10}
               projectDate={project.projectDate}
               codeLink={project.codeLink}
+              projectDocs={project.projectDocs}
             />
           ))}
             {/* <ProCard />
