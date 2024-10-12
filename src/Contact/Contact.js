@@ -11,7 +11,7 @@ const Footer = () => {
         <h2 className="text-4xl font-extrabold text-center mb-5 text-blue-400 underline decoration-1">
           Get in Touch
         </h2>
-        <main className="text-center font-sans align-middle md:flex flex-wrap justify-center items-center">
+        <main className="text-center font-sans align-middle md:flex md:flex-wrap flex flex-col lg:flex-row justify-center items-center mx-auto gap-4 ">
           
           <div className="h-40 w-80 m-4 border rounded-2xl bg-slate-400 text-left">
             <div className="flex ml-6 mt-4">

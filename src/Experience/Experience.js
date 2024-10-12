@@ -8,7 +8,7 @@ const Experience = () => {
           {" "}
           Experience & Education{" "}
         </h2>
-        <main class="ml-14 md:ml-28">
+        <main class=" flex justify-center p-5">
           <ol class="relative border-s border-gray-200 dark:border-gray-700">
             <li class="mb-10 ms-6">
               <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">

@@ -42,15 +42,51 @@ const Skills = () => {
           <main className="border rounded-xl p-3 inline-grid">
             {/* first line right start */}
               <h1 className=" justify-center lg: text-2xl mb-2 font-bold text-blue-200 underline">Front-End Technologies</h1>
-            <main className=" flex flex-wrap md:gap-4 lg:gap-4 2xl:gap-x-24">
-              <div className="flex flex-wrap gap-1 md:gap-4 lg:gap-4 2xl:gap-1">
+            <main className=" flex flex-wrap gap-1 md:gap-4 lg:gap-4 2xl:gap-x-24 justify-center">
+              <div className="flex flex-wrap gap-0.5 md:gap-4 lg:gap-4 2xl:gap-1">
+                {/* <button className=" bg-blue-100 px-5 py-0 rounded">
+                <FontAwesomeIcon
+                    icon={faHtml5}
+                    size="2xl"
+                    style={{ color: "#ff7300" }}
+                    className="h-10 lg:h-20 md:h-16"
+                    />
+                  <h2 className="">Html</h2>
+                </button>
+                <button className=" bg-blue-100 px-5 py-0 rounded">
+                <FontAwesomeIcon
+                    icon={faCss3Alt}
+                    size="2xl"
+                    style={{ color: "#0068f0" }}
+                    className="h-10 lg:h-20"
+                    />
+                  <h2 className="">Css</h2>
+                </button>
+                <button className=" bg-blue-100 px-5 py-0 rounded">
+                <FontAwesomeIcon
+                    icon={faSquareJs}
+                    size="2xl"
+                    style={{ color: "#ffea00" }}
+                    className="h-10 lg:h-20"
+                    />
+                  <h2 className="font-normal">Js</h2>
+                </button>
+                <button className=" bg-blue-100 px-5 py-2 rounded">
+                <FontAwesomeIcon
+                    icon={faReact}
+                    size="2xl"
+                    style={{ color: "#00ffb3" }}
+                    className="h-8 lg:h-20"
+                    />
+                  <h2 className="">React.js</h2>
+                </button> */}
               <button class="relative inline-flex items-center justify-center p-1 mb-2  overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                 <span class="relative px-5 py-2  transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   <FontAwesomeIcon
                     icon={faHtml5}
                     size="2xl"
                     style={{ color: "#ff7300" }}
-                    className="h-20"
+                    className="h-10"
                     />
                   <h2 className="">Html</h2>
                 </span>
@@ -61,7 +97,7 @@ const Skills = () => {
                     icon={faCss3Alt}
                     size="2xl"
                     style={{ color: "#0068f0" }}
-                    className="h-20"
+                    className="h-10"
                     />
                   <h2 className="">Css</h2>
                 </span>
@@ -75,9 +111,9 @@ const Skills = () => {
                     icon={faSquareJs}
                     size="2xl"
                     style={{ color: "#ffea00" }}
-                    className="h-20"
+                    className="h-10"
                     />
-                  <h2 className="">JavaScript</h2>
+                  <h2 className="font-normal">Js</h2>
                 </span>
               </button>
               <button class="relative inline-flex items-center justify-center p-1 mb-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
@@ -86,9 +122,9 @@ const Skills = () => {
                     icon={faReact}
                     size="2xl"
                     style={{ color: "#00ffb3" }}
-                    className="h-16"
+                    className="h-8"
                     />
-                  <h2 className="">React.js</h2>
+                  <h2 className="">React</h2>
                 </span>
               </button>
             </div>
@@ -96,23 +132,23 @@ const Skills = () => {
             {/* first line right end */}
 
             {/* Second line right start */}
-            <main className="flex flex-wrap mt-1 gap-2 md:gap-4 lg:gap-4 2xl:gap-x-24">
-            <div className="flex flex-wrap gap-1 md:gap-4 lg:gap-4 2xl:gap-4">
+            <main className="flex flex-wrap mt-1 gap-2 md:gap-4 lg:gap-4 2xl:gap-x-24 ">
+            <div className="flex flex-wrap gap-1 md:gap-4 lg:gap-4 2xl:gap-4 ">
 
               <button class="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
                 <span class="relative px-2 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
-                  <img src={img1} alt="TailwindCss" className="h-12 w-16" />
-                  <h2 className="mt-1.5 text-center">TailwindCSS</h2>
+                  <img src={img1} alt="TailwindCss" className="h-8 w-10" />
+                  <h2 className="mt-1.5 text-center">Tailwind</h2>
                 </span>
               </button>
 
               <button class="relative inline-flex items-center justify-center p-1 mb-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
-                <span class="relative px-4 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                <span class="relative px-2 py-3 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   <FontAwesomeIcon
                     icon={faBootstrap}
                     size="2xl"
                     style={{ color: "#e647a4" }}
-                    className="h-16"
+                    className="h-10"
                   />
                   <h2 className="">Bootstrap</h2>
                 </span>
@@ -120,16 +156,16 @@ const Skills = () => {
               </div>
               <div className="flex flex-wrap gap-1 md:gap-4 lg:gap-4 2xl:gap-4">
 
-              <button class="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                <span class="relative px-4 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
-                  <img src={img15} alt="Mongodb" className="h-16 w-16" />
-                  <h2 className="mt-1.5 text-center">MongoDB</h2>
+              <button class="relative inline-flex items-center justify-center p-1  overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                <span class="relative px-1 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                  <img src={img15} alt="Mongodb" className="h-10" />
+                  <h2 className=" text-center">MongoDB</h2>
                 </span>
               </button>
-              <button class="relative inline-flex items-center justify-center p-1 ml-3 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
-                <span class="relative px-4 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
-                  <img src={img12} alt="RestAPI" className="h-16 w-16" />
-                  <h2 className="mt-1 text-center">RestAPIs</h2>
+              <button class="relative inline-flex items-center justify-center overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+                <span class="relative px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                  <img src={img12} alt="RestAPI" className="h-16 w-12" />
+                  <h2 className=" text-center">RestAPIs</h2>
                 </span>
               </button>
               </div>
@@ -142,14 +178,14 @@ const Skills = () => {
             <div className="flex flex-wrap gap-1 md:gap-4 lg:gap-4 2xl:gap-4">
 
               <button class="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                <span class="relative px-4 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
-                  <img src={img18} alt="Http" className="h-16 w-16" />
-                  <h2 className="mt-1 text-center">HTTP</h2>
+                <span class="relative px-2 py-1 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                  <img src={img18} alt="Http" className="h-16 w-12" />
+                  <h2 className="text-center">HTTP</h2>
                 </span>
               </button>
 
               <button class="relative inline-flex items-center justify-center p-1 mb-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                <span class="relative px-5 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                <span class="relative px-2.5 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   <img src={img9} alt="git" className="h-16" />
                   <h2 className="">Git</h2>
                 </span>
@@ -159,14 +195,14 @@ const Skills = () => {
               <div className="flex flex-wrap gap-1 md:gap-4 lg:gap-4 2xl:gap-4">
 
               <button class="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
-                <span class="relative px-4 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
-                  <img src={img10} alt="GitHub" className="h-16 w-16" />
+                <span class="relative px-2 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                  <img src={img10} alt="GitHub" className="h-16 w-12" />
                   <h2 className="mt-1.5 text-center">GitHub</h2>
                 </span>
               </button>
               <button class="relative inline-flex items-center justify-center p-1 ml-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
-                <span class="relative px-4 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
-                  <img src={img19} alt="Netlify" className="h-16 w-16" />
+                <span class="relative px-2.5 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                  <img src={img19} alt="Netlify" className="h-16 w-12" />
                   <h2 className="mt-1 text-center">Netlify</h2>
                 </span>
               </button>
@@ -198,14 +234,14 @@ const Skills = () => {
           <h1 className=" justify-center lg: text-2xl mb-2 font-bold text-blue-200 underline">Back-End Technologies</h1>
 
             {/* Left Side First Start */}
-            <div className="flex flex-wrap gap-3 mb-4">
+            <div className="flex flex-wrap gap-1 mb-4">
               {/* Java Button */}
               <button className="relative inline-flex items-center justify-center p-1  overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                <span className="relative px-4 py-4 -mb-15 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-2 -mb-15 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img2}
                     alt="Java"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">Java</h2>
                 </span>
@@ -213,33 +249,33 @@ const Skills = () => {
 
               {/* Springboot Button */}
               <button className="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                <span className="relative px-4 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-0.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img3}
                     alt="Spring Boot"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
-                  <h2 className="mt-2 text-center">Spring Boot</h2>
+                  <h2 className="mt-2 text-center">Spring <br />Boot</h2>
                 </span>
               </button>
 
               {/* Linux Button */}
               <button className="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
-                <span className="relative px-4 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img7}
                     alt="Linux"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">Linux</h2>
                 </span>
               </button>
               <button className="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
-                <span className="relative px-4 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-3 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img4}
                     alt="Spring Data"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">
                     Spring <br />
@@ -251,16 +287,16 @@ const Skills = () => {
             {/* Left Side First End */}
 
             {/* Left Side Second Start */}
-            <div className="flex flex-wrap gap-3 mb-4">
+            <div className="flex flex-wrap gap-1 mb-4">
               {/* SpringData Button */}
 
               {/* Gradle Button */}
               <button className="relative inline-flex items-center justify-center p-1  overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
-                <span className="relative  px-4 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative  px-2 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img6}
                     alt="Gradle"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">Gradle</h2>
                 </span>
@@ -268,11 +304,11 @@ const Skills = () => {
 
               {/* Spring Security Button */}
               <button className="relative inline-flex items-center justify-center p-1.5  overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                <span className="relative px-4 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-1 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img5}
                     alt="Spring Security"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">
                     Spring <br />
@@ -285,11 +321,11 @@ const Skills = () => {
               {/* Left Side Third Start */}
               {/* Lombok Button */}
               <button className="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                <span className="relative px-4 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img8}
                     alt="Lombok"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">Lombok</h2>
                 </span>
@@ -297,11 +333,11 @@ const Skills = () => {
 
               {/* MySQL Button */}
               <button className="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                <span className="relative px-4 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img14}
                     alt="MySQL"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">MySQL</h2>
                 </span>
@@ -311,14 +347,14 @@ const Skills = () => {
             </div>
 
             {/* Left Side Fourth Start */}
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-1">
               {/* Testing Button */}
               <button className="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                <span className="relative px-4 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img13}
                     alt="JUnit & Mockito"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">
                     JUnit & <br />
@@ -328,11 +364,11 @@ const Skills = () => {
               </button>
               {/* Python Button */}
               <button className="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
-                <span className="relative px-4 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img16}
                     alt="Python"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">Python</h2>
                 </span>
@@ -340,11 +376,11 @@ const Skills = () => {
 
               {/* Hibernate Button */}
               <button className="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                <span className="relative px-4 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img17}
                     alt="Hibernate"
-                    className="h-16 w-16 object-contain"
+                    className="h-14 w-14 object-contain"
                   />
                   <h2 className="mt-2 text-center">Hibernate</h2>
                 </span>
@@ -352,13 +388,13 @@ const Skills = () => {
 
               {/* Docker Button */}
               <button className="relative inline-flex items-center justify-center p-1 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
-                <span className="relative px-4 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
+                <span className="relative px-2 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 flex flex-col items-center">
                   <img
                     src={img11}
                     alt="Docker"
                     className="h-16 w-16 object-contain"
                   />
-                  <h2 className="mt-2 text-center">Docker</h2>
+                  <h2 className=" text-center">Docker</h2>
                 </span>
               </button>
             </div>
