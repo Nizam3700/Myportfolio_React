@@ -25,10 +25,20 @@ const Home = () => {
                 type="button"
                 class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-4"
               >
-            <a href="https://drive.google.com/file/d/1BkfeUOXMsoaAB7q4d5VPUiRxqokCavbF/view" target='_blank'>
+            <a href="https://drive.google.com/file/d/18jVkc9kUD9iozFOMU8-5yUN_Fx64E5-X/view?usp=sharing" target='_blank'>
                 View Resume {FaRegEye} 
             </a>
               </button>
+
+          </div>
+          
+          <div className="">
+
+          <img
+              class="rounded-full w-96 h-96 items-center content-center m-auto md:mr-28 md:w-96"
+              src={mypro}
+              alt="image description"
+              />
 
             <figure class="max-w-screen-md mx-auto text-center m-2">
               <svg
@@ -62,14 +72,13 @@ const Home = () => {
                 </div>
               </figcaption>
             </figure>
+          {/* </div> */}
+
+          {/* pro image start  */}
+          {/* <div className=""> */}
+
           </div>
-          <div className="">
-            <img
-              class="rounded-full w-96 h-96 items-center content-center m-auto md:mr-28 md:w-96"
-              src={mypro}
-              alt="image description"
-            />
-          </div>
+          {/* pro image end  */}
         </main>
     </>
   )
