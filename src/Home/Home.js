@@ -1,18 +1,21 @@
 import React from 'react'
 import mypro from "../Assests/mypro.png";
 import {FaRegEye} from "react-icons/fa";
+// import Myskills from "./components/Myskills";
+import Myskills from '../components/Myskills';
+
 
 const Home = () => {
   return (
     <>
     <h2
-          class="text-4xl font-extrabold text-green-600 m-4 absolute left-2 md:ml-20"
+          class="text-4xl ml-7 font-extrabold text-green-600 m-4 absolute left-4 md:ml-20 "
           id="Home"
         >
           Welcome
         </h2>
         <main class=" block md:flex md:justify md:ml-10">
-          <div class="ml-2 w-5/6">
+          <div class="ml-8 w-5/6">
             <h1 class="mt-16 text-white text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
               I'm <span className="text-yellow-300">Shaik Nizamuddin</span>
             </h1>
@@ -23,12 +26,13 @@ const Home = () => {
 
               <button
                 type="button"
-                class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-4"
+                class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-8"
               >
             <a href="https://drive.google.com/file/d/18jVkc9kUD9iozFOMU8-5yUN_Fx64E5-X/view?usp=sharing" target='_blank'>
                 View Resume {FaRegEye} 
             </a>
               </button>
+              <Myskills />
 
           </div>
           

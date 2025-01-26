@@ -4,6 +4,8 @@ import React from 'react'
 import { Button } from "flowbite-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCompactDisc } from "@fortawesome/free-solid-svg-icons";
+import {faGithub } from "@fortawesome/free-brands-svg-icons";
+
 
 const ProCard = ({
 
@@ -104,9 +106,10 @@ const ProCard = ({
                 </div>
               </a>
               
-              <a href={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-400 to-red-600 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Project Details</button></a>
+              <a href={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-400 to-red-600 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">              <FontAwesomeIcon icon={faGithub} size="xl" className="h-6 mr-2" style={{ color: "#121212" }} />
+              Code</button></a>
               <a href={projectLink} target="_blank">
-                <button type="button" class="text-black bg-gradient-to-br from-blue-400 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"><FontAwesomeIcon icon={faCompactDisc} fade size="lg" style={{color: "#b30000",}} className='mr-2' />Live</button>
+                <button type="button" class="text-black bg-gradient-to-br from-blue-400 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"><FontAwesomeIcon icon={faCompactDisc} fade size="lg" style={{color: "#b30000",}} className='mr-2' />Project Live</button>
                 </a>
 
                 <a href={projectDocs} target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline m-2">
