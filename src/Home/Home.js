@@ -3,6 +3,7 @@ import mypro from "../Assests/mypro.png";
 import {FaRegEye} from "react-icons/fa";
 // import Myskills from "./components/Myskills";
 import Myskills from '../components/Myskills';
+import {Link} from 'react-router-dom'
 
 
 const Home = () => {
@@ -28,9 +29,9 @@ const Home = () => {
                 type="button"
                 class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-8"
               >
-            <a href="https://drive.google.com/file/d/18jVkc9kUD9iozFOMU8-5yUN_Fx64E5-X/view?usp=sharing" target='_blank'>
+            <Link to="https://drive.google.com/file/d/18jVkc9kUD9iozFOMU8-5yUN_Fx64E5-X/view?usp=sharing" target='_blank'>
                 View Resume {FaRegEye} 
-            </a>
+            </Link>
               </button>
               <Myskills />
 

@@ -1,5 +1,7 @@
 import React from "react";
 
+import {Link} from 'react-router-dom'
+
 const Experience = () => {
   return (
     <>
@@ -122,8 +124,8 @@ const Experience = () => {
                   </ul>
                 </time>
                 
-                <a
-                  href="https://drive.google.com/file/d/1XaYvI9njx5ZU8u9_v5b3DG9_f8jLd3kC/view?usp=sharing" target="_blank"
+                <Link
+                  to="https://drive.google.com/file/d/1_RTdnN5kIrFXNVLmAuL9Wh51HEG2xgba/view?usp=sharing" target="_blank"
                   class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                 >
                   Certificate{" "}
@@ -142,7 +144,7 @@ const Experience = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </Link>
               </li>
               <li class="mb-10 ms-4">
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -164,8 +166,8 @@ const Experience = () => {
                   </ul>
                 </time>
 
-                <a
-                  href="https://drive.google.com/file/d/10zOf4wNAgUnEw8xdZjj-2iclwIYY3Q5C/view?usp=sharing" target="_blank"
+                <Link
+                  to="https://drive.google.com/file/d/10zOf4wNAgUnEw8xdZjj-2iclwIYY3Q5C/view?usp=sharing" target="_blank"
                   class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                 >
                   Intern Certificate{" "}
@@ -184,7 +186,7 @@ const Experience = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </Link>
               </li>
               
             </ol>

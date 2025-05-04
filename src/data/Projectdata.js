@@ -1,6 +1,11 @@
 // src/data/projectsData.js
 import hostel from "../Assests/hostel.png"
 import hotel from "../Assests/project/hotel.png"
+import Document from "../Project/Projectoverview";
+import { Link } from "react-router-dom";
+import projectDescription from "./Projectdescription"; // Adjust the path as necessary
+// import { useParams } from "react-router-dom";
+
 const projectsData = [
     {
       id: 1,
@@ -23,6 +28,8 @@ const projectsData = [
       codeLink:"https://github.com/Nizam3700/GeekTrust-Challenege",
       projectDate: "August 2024",
       projectDocs: "https://github.com/Nizam3700/GeekTrust-Challenege",
+      // docs:<Document/>
+
     },
     {
       id: 3,
@@ -34,7 +41,9 @@ const projectsData = [
       codeLink: "https://github.com/Nizam3700/Hotel_Management_System?tab=readme-ov-file",
       projectLink:"https://hotel-management-system-3.onrender.com/swagger-ui/index.html",
       projectDate: "July-Aug 2024",
-      projectDocs:"#"
+      projectDocs:"#",
+      // docs:<Document/>
+
     },
     {
       id: 6,
@@ -46,6 +55,8 @@ const projectsData = [
       projectLink: "https://identity.getpostman.com/accounts?continue=https%3A%2F%2Fgo.postman.co%2Fcollection%2F34329189-3b58f42d-3f49-44f8-9104-924b7c755777",
       projectDate: "July-Aug 2024",
       projectDocs: "https://github.com/Nizam3700/Learning-Navigator",
+      // docs:<Document/>
+
     },
     {
       id: 4,
@@ -56,6 +67,8 @@ const projectsData = [
       projectLink: "https://www.crio.do/learn/portfolio/nizamuddin8637/ME_BUILDOUT_XMEME_JAVA/?edit=true",
       codeLink:"https://github.com/nizam3700",
       projectDate: "July 2024",
+      // docs:<Document />
+
     },
     {
       id: 5,
@@ -67,6 +80,8 @@ const projectsData = [
       codeLink:"https://github.com/nizam3700",
       projectDate: "July 2024",
       projectDocs: "https://github.com/Nizam3700/GeekTrust-Challenege",
+      // docs:<Document/>
+
 
     },
     

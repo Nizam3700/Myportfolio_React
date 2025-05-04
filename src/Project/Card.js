@@ -25,7 +25,7 @@ const Card = ({
     
     <section class="md:ml-20 m-5">
             <div class="max-w-sm border items-center content-center m-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <a href="#">
+              <Link to="#">
                 {/* projectImage  */}
                 <img
                 loading="lazy"
@@ -103,11 +103,11 @@ const Card = ({
                     </span>
                   </button> */}
                 </div>
-              </a>
+              </Link>
               
-              <a href={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-Blue-800 to-yellow-300 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"><FontAwesomeIcon icon={faGithub} size="2xl" className="h-10" style={{ color: "#121212" }} />
-               Project Details</button></a>
-              <a href={livelink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-600 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">View Code</button></a>
+              <Link to={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-Blue-800 to-yellow-300 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"><FontAwesomeIcon icon={faGithub} size="2xl" className="h-10" style={{ color: "#121212" }} />
+               Project Details</button></Link>
+              <Link to={livelink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-600 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">View Code</button></Link>
             </div>
             
           </section>

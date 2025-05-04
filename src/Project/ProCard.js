@@ -6,6 +6,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCompactDisc } from "@fortawesome/free-solid-svg-icons";
 import {faGithub } from "@fortawesome/free-brands-svg-icons";
 
+import {Link, useNavigate} from 'react-router-dom'
+import Document from './Projectoverview';
+import { useState } from 'react';
+import Projectoverview from './Projectoverview';
+import projectsData from '../data/Projectdata';
+import projectDescription from './Projectoverview';
+
 
 const ProCard = ({
 
@@ -17,15 +24,29 @@ const ProCard = ({
   projectLink,
   codeLink,
   projectDocs,
+  docs,
   color
 }) => {
+
+  // const [openDocId, setOpenDocId] = useState(null);
+  // const navigate = useNavigate();
+  
+//   const pro = 1;
+// // Logic to check if the project ID matches the description ID
+// function handleProjectClick() {
+//   if (pro === projectsData.id || pro === projectDescription.id) {
+//     setOpenDocId(true); // Open the documentation if IDs match
+//   } else {
+//     console.log('IDs do not match');
+//   }
+// }
 
   return (
     <>
     
     <section class="md:ml-20 m-5">
             <div class="max-w-sm border items-center content-center m-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <a href={projectDocs} target='_blank'>
+              <Link to={color} target='_blank'>
                 {/* projectImage  */}
                 <img
                 loading="lazy"
@@ -104,20 +125,28 @@ const ProCard = ({
                     </span>
                   </button> */}
                 </div>
-              </a>
+              </Link>
               
-              <a href={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-400 to-red-600 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">              <FontAwesomeIcon icon={faGithub} size="xl" className="h-6 mr-2" style={{ color: "#121212" }} />
-              Code</button></a>
-              <a href={projectLink} target="_blank">
+              <Link to={codeLink} target="_blank"><button type="button" class="text-black bg-gradient-to-br from-blue-400 to-red-600 hover:bg-gradient-to-bl focus:ring-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">              <FontAwesomeIcon icon={faGithub} size="xl" className="h-6 mr-2" style={{ color: "#121212" }} />
+              Code</button></Link>
+              <Link to={projectLink} target="_blank">
                 <button type="button" class="text-black bg-gradient-to-br from-blue-400 to-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-500 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"><FontAwesomeIcon icon={faCompactDisc} fade size="lg" style={{color: "#b30000",}} className='mr-2' />Project Live</button>
-                </a>
+                </Link>
 
-                <a href={projectDocs} target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline m-2">
+                <Link to={projectDocs} target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline m-2">
         Project Documentation 
         <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
         </svg>
-    </a>
+    </Link>
+    
+
+    
+    
+    {/* <button onClick={() => handleProjectClick()}>Docs</button> */}
+    {/* {openDocId && <Projectoverview />} */}
+
+    {/* <button onClick={() => navigate("/projectoverview")}> Project Details</button> */}
             </div>
           </section>
     </>

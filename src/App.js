@@ -11,7 +11,8 @@ import Experience from "../src/Experience/Experience";
 import Contact from "./Contact/Contact";
 
 import projectsData from "./data/Projectdata";
-import { BrowserRouter } from 'react-router-dom'; // Import BrowserRouter
+import { BrowserRouter,Link, Router } from 'react-router-dom'; // Import BrowserRouter
+import Projectdetailsdata from "./Project/Projectdetailsdata";
 
 
 
@@ -52,30 +53,31 @@ function App() {
   };
 
   return (
+
     <div className="App">
       <ScrollToTop />
       <div className="hero">
         {/* navbar start  */}
         <nav className="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
           <div className="header max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
-            <a
-              href="#"
+            <Link
+              to="#"
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <img src={myimage} className="h-14" alt="Flowbite Logo" />
               <span className="self-center text-white  text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Portfolio
               </span>
-            </a>
+            </Link>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <a href="https://drive.google.com/file/d/18jVkc9kUD9iozFOMU8-5yUN_Fx64E5-X/view?usp=sharing" target='_blank'>
+            <Link to="https://drive.google.com/file/d/18jVkc9kUD9iozFOMU8-5yUN_Fx64E5-X/view?usp=sharing" target='_blank'>
               <button
                 type="button"
                 className="text-white m-2 flex bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-4 py-2 text-center me-2 mb-2"
               >
                 Resume <FaDownload className="ml-3 mt-1" />
               </button>
-              </a>
+              </Link>
               <button
                 type="button"
                 className="inline-flex m-2 bg-cyan-100 text-black items-center p-2 w-10 h-10 justify-center text-sm text-gray-800 rounded-lg md:hidden hover:bg-blue-300 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -130,7 +132,7 @@ function App() {
                   onClick={() => scrollToSection(exp)}
                   className="link  m-1 text-cyan-200 hover:decoration-solid hover:text-blue-500  "
                 >
-                  Experenices
+                  Experience
                 </li>
                 <li
                   onClick={() => scrollToSection(contacts)}
@@ -245,15 +247,15 @@ function App() {
       <footer class="bg-grey-900 text-white rounded-lg mt-28 shadow dark:bg-gray-900 m-4">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div class="sm:flex sm:items-center sm:justify-between">
-            <a
-              href="#" onClick={() => scrollToSection(home)}
+            <Link
+              to="#" onClick={() => scrollToSection(home)}
               class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
               <img src={myimage} class="h-12" alt="my Logo" />
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Portfolio
               </span>
-            </a>
+            </Link>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <li onClick={() => scrollToSection(home)} class="hover:underline me-4 md:me-6">
                   About
@@ -275,14 +277,17 @@ function App() {
           <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
-            <a href="#" class="hover:underline">
-            </a>
+            <Link to="#" class="hover:underline">
+            </Link>
             . All Rights Reserved.
           </span>
         </div>
       </footer>
       {/* footer end  */}
+
+    
     </div>
+    
   );
 }
 

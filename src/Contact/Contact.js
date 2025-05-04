@@ -27,9 +27,9 @@ const Footer = () => {
             </div>
             <h1 className="text-2xl font-bold ml-8 text-gray-800">WhatsApp</h1>
             <h1 className="text-sm font-bold ml-8 text-gray-600">+91 739618XXXX</h1>
-            <a href="https://wa.me/7396183700" target="_blank" className="inline-flex font-medium items-center ml-8 mt-2.5 text-blue-600 hover:underline">
+            <Link to="https://wa.me/7396183700" target="_blank" className="inline-flex font-medium items-center ml-8 mt-2.5 text-blue-600 hover:underline">
               Message me
-            </a>
+            </Link>
           </div>
 
           <div className="h-40 w-60 m-4 border rounded-2xl bg-slate-400 text-left">
@@ -38,9 +38,9 @@ const Footer = () => {
             </div>
             <h1 className="text-2xl font-bold ml-8 text-gray-800">LinkedIn</h1>
             <h1 className="text-sm font-bold ml-8 text-gray-600">Shaik Nizamuddin</h1>
-            <a href="https://www.linkedin.com/in/nizam3700" target="_blank" className="inline-flex font-medium items-center ml-8 mt-2.5 text-blue-600 hover:underline">
+            <Link to="https://www.linkedin.com/in/nizam3700" target="_blank" className="inline-flex font-medium items-center ml-8 mt-2.5 text-blue-600 hover:underline">
               Profile
-            </a>
+            </Link>
           </div>
 
           <div className="h-40 w-60 m-4 border rounded-2xl bg-slate-400 text-left">
@@ -49,9 +49,9 @@ const Footer = () => {
             </div>
             <h1 className="text-2xl font-bold ml-8 text-gray-800">Gmail</h1>
             <h1 className="text-sm font-bold ml-8 text-gray-600">nizamuddin8637@gmail.com</h1>
-            <a href="mailto:nizamuddin8637@gmail.com" target="_blank" className="inline-flex font-medium items-center ml-8 mt-2.5 text-blue-600 hover:underline">
+            <Link to="mailto:nizamuddin8637@gmail.com" target="_blank" className="inline-flex font-medium items-center ml-8 mt-2.5 text-blue-600 hover:underline">
               Mail me
-            </a>
+            </Link>
           </div>
 
           <div className="h-40 w-60 m-4 border rounded-2xl bg-slate-400 text-left">
@@ -60,9 +60,9 @@ const Footer = () => {
             </div>
             <h1 className="text-2xl font-bold ml-8 text-gray-800">GitHub</h1>
             <h1 className="text-sm font-bold ml-8 text-gray-600">Nizam3700</h1>
-            <a href="https://github.com/Nizam3700" target="_blank" className="inline-flex font-medium items-center ml-8 mt-2.5 text-blue-600 hover:underline">
+            <Link to="https://github.com/Nizam3700" target="_blank" className="inline-flex font-medium items-center ml-8 mt-2.5 text-blue-600 hover:underline">
               Follow me
-            </a>
+            </Link>
           </div>
 
         </main>
